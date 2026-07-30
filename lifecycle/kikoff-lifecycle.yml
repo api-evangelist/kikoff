@@ -1,0 +1,10 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.kikoff.com
+status_page: https://status.kikoff.com
+notes: >-
+  Public status page confirmed live (title "Kikoff Status"). No public
+  versioning or deprecation policy is published for the consumer product; the
+  Kikoff Enterprise REST API is versioned by URI path (v1) per the published
+  code example (https://sandbox.enterprise.kikoff.com/v1/...), but no dated
+  deprecation/sunset policy is publicly documented.

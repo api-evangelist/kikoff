@@ -1,0 +1,16 @@
+# Kikoff Inc. security contacts and policy
+
+# Our security contact channels
+Contact: mailto:security@kikoff.com
+
+# Our OpenPGP key
+Encryption: https://assets.kikoff.com/public-keys/security.asc
+Encryption: openpgp4fpr:25900852d861288d1b626de5f22ff522abc3e661
+
+# Link to our vulnerability disclosure policy
+Policy: https://kikoff.com/vulnerability-disclosure-policy.pdf
+
+# Languages that our team speaks and understands
+Preferred-Languages: en-US
+
+Expires: 2026-01-01T00:00:00z
