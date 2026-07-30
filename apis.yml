@@ -1,8 +1,25 @@
 aid: kikoff
 name: Kikoff
-description: 'Kikoff is a company surfaced as a portfolio company of ggv-capital, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Kikoff is a San Francisco-based consumer fintech, founded in 2019, that helps
+  people build and repair credit. Its products include a Credit Account that furnishes tradelines
+  to all three bureaus (Equifax, Experian, TransUnion), rent and bill reporting, credit
+  monitoring and disputes, an AI Debt Negotiator, the Fynn AI credit coach, and an invite-only
+  secured credit card, sold across Basic, Premium, and Ultimate subscription tiers. Kikoff
+  Enterprise exposes a unified REST API covering member enrollment, tradeline furnishing, and
+  dispute status so businesses can embed credit-building infrastructure. Backed by GGV Capital
+  and Lightspeed Venture Partners.'
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6917adb812aab3b38f8a8547/69f8d983cdfd88f45bb3d46b_kikoff_website%20preview%20(1).png
 url: https://raw.githubusercontent.com/api-evangelist/kikoff/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,16 +30,73 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-apis: []
+- Credit
+- Credit Building
+- Credit Reporting
+- Consumer Finance
+- Personal Finance
+- Lending
+apis:
+- name: Kikoff Enterprise API
+  description: >-
+    Unified REST API for embedding credit-building infrastructure, covering member enrollment,
+    tradeline furnishing to the credit bureaus, and dispute status. Access is gated behind a
+    demo/onboarding process; no public OpenAPI or developer reference is published.
+  humanURL: https://kikoffenterprise.com/
+  baseURL: https://sandbox.enterprise.kikoff.com/v1
+  tags:
+  - Credit
+  - Fintech
+  - Furnishing
+  properties:
+  - type: DeveloperPortal
+    url: https://kikoffenterprise.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/kikoff-vulnerability-disclosure.yml
+- type: Security
+  url: https://kikoff.com/vulnerability-disclosure-policy.pdf
+- type: DomainSecurity
+  url: security/kikoff-domain-security.yml
+- type: SecurityTxt
+  url: well-known/kikoff-security.txt
+- type: WellKnown
+  url: well-known/kikoff-well-known.yml
+- type: Lifecycle
+  url: lifecycle/kikoff-lifecycle.yml
+- type: StatusPage
+  url: https://status.kikoff.com
 - type: Website
   url: https://kikoff.com/
+- type: Blog
+  url: https://blog.kikoff.com/
+- type: Pricing
+  url: https://kikoff.com/pricing
+- type: HelpCenter
+  url: https://kikoff.com/frequently-asked-questions
+- type: Support
+  url: https://kikoff.com/contact-us
+- type: GettingStarted
+  url: https://kikoff.com/how-kikoff-works
+- type: SignUp
+  url: https://kikoff.com/signup
+- type: Login
+  url: https://kikoff.com/login
+- type: TermsOfService
+  url: https://kikoff.com/terms.pdf
+- type: PrivacyPolicy
+  url: https://kikoff.com/privacy-policy.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
