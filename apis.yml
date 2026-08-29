@@ -8,6 +8,17 @@ description: 'Kikoff is a San Francisco-based consumer fintech, founded in 2019,
   Enterprise exposes a unified REST API covering member enrollment, tradeline furnishing, and
   dispute status so businesses can embed credit-building infrastructure. Backed by GGV Capital
   and Lightspeed Venture Partners.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
